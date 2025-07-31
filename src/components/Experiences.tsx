@@ -58,7 +58,7 @@ const Experiences: React.FC = () => {
                         I decided to enhance my skills at Coding Temple, where I gained hands-on experience in modern development practices and learned 
                         Python and React effectively.
                     </p>
-                    </div>
+                </div>
                 <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-6xl">
                     <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
                         {events.map((event, index) => (

@@ -44,7 +44,7 @@ const Projects : React.FC = () =>{
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-5xl ">
                     <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl lg:text-balance">
-                        My Personal Projects
+                        My Projects
                     </p>
                 <p className="mt-6 text-lg/8 text-gray-700">
                     I develop modern, scalable web applications using Python (Flask) for backend services and React with Bootstrap for building responsive and user-friendly interfaces. My projects follow REST API standards and are designed with clean, maintainable code using industry best practices, including state management, authentication/authorization, and database integration.
@@ -55,7 +55,7 @@ const Projects : React.FC = () =>{
                   
                         {features.map((feature) => (
                        
-                            <div key={feature.name} className="flex max-w-xl flex-col items-start justify-between hover:bg-gray-200 p-4 rounded shadow-md transition hover:scale-110">
+                            <div key={feature.name} className="flex max-w-xl flex-col items-start justify-between p-4 rounded shadow-md transition hover:scale-110">
                                 <div className="flex items-center gap-x-4 text-xs">
                                     <time dateTime="Mar 16, 2025" className="text-gray-500">
                                         Mar 16, 2025
@@ -64,31 +64,21 @@ const Projects : React.FC = () =>{
                                     href="#"
                                     className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                                     >
-                                        Ongoing
+                                        Personal
                                     </a>
                                 </div>
-                                <div className="group relative grow">
+                                <div className="group relative grow mb-2">
                                     <h3 className="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-indigo-600">
-                                    <a href={feature.link}>
+                                    <a href={feature.link} target="_blank" >
                                         <span className="absolute inset-0" />
                                         {feature.name}
                                     </a>
                                     </h3>
                                     <p className="mt-2 line-clamp-3 text-sm/6 text-gray-600">{feature.description}</p>
                                 </div>
-                                <div className="relative mt-8 flex items-center gap-x-4 justify-self-end">
-
-                                    {/* <img alt="" src={feature.author.imageUrl} className="size-10 rounded-full bg-gray-50" />
-                                    <div className="text-sm/6">
-                                    <p className="font-semibold text-gray-900">
-                                        <a href={feature.author.href}>
-                                        <span className="absolute inset-0" />
-                                        {feature.author.name}
-                                        </a>
-                                    </p>
-                                    <p className="text-gray-600">{feature.author.role}</p>
-                                    </div> */}
-                                </div>
+                                {/* <div className="relative mt-8 flex items-center gap-x-4 justify-self-end">
+                                   
+                                </div> */}
                             </div>
                         
                         ))}

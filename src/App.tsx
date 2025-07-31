@@ -6,7 +6,9 @@ import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Experiences from './components/Experiences';
+import Technologies from './components/Technologies';
 import Contact from './components/Contact';
+
 const App: React.FC = () => {
   return (
     <div className="font-sans bg-gray-50 text-gray-900 ">
@@ -14,6 +16,7 @@ const App: React.FC = () => {
         <Hero/>
         <Projects />
         <Experiences/>
+        <Technologies/>
         <Contact/>
         <Footer/>
     </div>

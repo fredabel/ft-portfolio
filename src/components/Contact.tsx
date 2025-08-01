@@ -4,8 +4,8 @@ const Contact: React.FC = () => {
   return (
     
            
-    <div className="relative isolate border-t border-gray-200 sm:py-20 py-10">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="relative isolate border-t border-gray-200 sm:py-20 py-10" >
+        <div className="mx-auto max-w-7xl px-6 lg:px-8" id="contact">
             <div
                 aria-hidden="true"
                 className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"

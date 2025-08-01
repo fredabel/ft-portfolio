@@ -200,9 +200,9 @@ const Technologies: React.FC = () => {
     ]
     
     return (
-        <div className="border-t border-gray-200 sm:py-20 py-10">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
-                <div className="mx-auto max-w-5xl ">
+        <div className="border-t border-gray-200 sm:py-20 py-10" >
+            <div className="mx-auto max-w-7xl px-6 lg:px-8" id="skills">
+                <div className="mx-auto max-w-5xl">
                     <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl lg:text-balance pl-3 border-l-5 border-gray-200">
                        Skills
                     </p>

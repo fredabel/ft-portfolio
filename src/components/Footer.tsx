@@ -1,20 +1,24 @@
 import { FaLinkedin, FaGithub, FaFacebook, FaInstagram, FaYoutube } from 'react-icons/fa';
+import { Link } from "react-scroll";
 
 const Footer: React.FC = () => {
     const navigation = [
-        { name: 'About', href: '#' },
-        { name: 'Projects', href: '#' },
-        { name: 'Experience', href: '#' },
-        { name: 'Contact', href: '#' },
+        { name: 'About', href: 'about' },
+        { name: 'Projects', href: 'projects' },
+        { name: 'Experience', href: 'experience' },
+        { name: 'Skills', href: 'skills' },
+        { name: 'Contact', href: 'contact' },
     ]
   return (
     <footer className="mx-auto px-6 py-8 ">
         <div className="flex justify-center gap-x-5 sm:gap-x-5 lg:gap-x-10 mb-10">
-            {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="line-clamp-3 text-sm/6 text-gray-600 transition transform hover:scale-110 ">
-                    {item.name}
-                </a>
-            ))}
+            {   
+                navigation.map((item) => (
+                    <Link key={item.name} to={item.href} smooth={true} duration={500}  className="line-clamp-3 text-sm/6 text-gray-600 transition transform hover:scale-110 ">
+                        {item.name}
+                    </Link>
+                ))
+            }
         </div>
         <div className="flex justify-center space-x-4 gap-x-3 mb-5">
             <a 

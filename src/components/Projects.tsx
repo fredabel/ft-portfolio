@@ -49,7 +49,7 @@ const Projects : React.FC = () =>{
 
     return (
         <div className="relative isolate border-t border-gray-200 sm:py-20 py-10">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8" id="projects">
                 <div className="mx-auto max-w-5xl ">
                     <p className="mt-2 pl-4 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl lg:text-balance border-l-5 border-gray-200">
                         My Projects

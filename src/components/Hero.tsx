@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 const Hero: React.FC = () => {
 
     return (
-        <div className="relative isolate px-6 lg:px-8">
-            <div  aria-hidden="true" className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
+        <div className="relative isolate px-6 lg:px-8" >
+            <div  aria-hidden="true" className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" id="about">
                 <div
                     style={{
                     clipPath:

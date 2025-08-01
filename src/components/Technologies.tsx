@@ -203,10 +203,10 @@ const Technologies: React.FC = () => {
         <div className="border-t border-gray-200 sm:py-20 py-10">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-5xl ">
-                    <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl lg:text-balance">
+                    <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl lg:text-balance pl-3 border-l-5 border-gray-200">
                        Skills
                     </p>
-                    <p className="mt-6 text-lg/ text-gray-700">
+                    <p className="mt-6 text-lg/ text-gray-700 pl-5">
                         I specialize in building scalable, user-friendly applications using a modern tech stack. My expertise spans front-end, back-end, databases, and DevOps tools, allowing me to deliver full-stack solutions from development to deployment. 
                         I also work with payment integrations and cloud hosting platforms to bring production-ready applications to life.
                     </p>

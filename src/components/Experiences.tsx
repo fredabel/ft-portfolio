@@ -48,10 +48,10 @@ const Experiences: React.FC = () => {
         <div className="border-t border-gray-200 sm:py-20 py-10">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-5xl ">
-                    <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl lg:text-balance">
+                    <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl lg:text-balance pl-3 border-l-5 border-gray-200">
                         My Work Experience
                     </p>
-                    <p className="mt-6 text-lg/ text-gray-700">
+                    <p className="mt-6 text-lg/ text-gray-700 pl-5">
                         I have years of experience in web development using PHP, jQuery, MySQL, and Linux server management, and 
                         I’ve built projects such as a directory listing website, a subscription-based demo project, and an e-commerce platform 
                         with Stripe integration. Since much of my experience involved older technologies

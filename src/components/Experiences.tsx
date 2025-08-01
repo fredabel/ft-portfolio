@@ -3,44 +3,44 @@ import { ArrowRightIcon } from '@heroicons/react/24/outline';
 const Experiences: React.FC = () => {
     const events = [
         {
-        year: 'FEB 2025 - Present ',
-        company: 'Coding Temple | Remote ',
-        title: 'Full Stack Software Engineer Apprenticeship',
-        description:
-            'Developed fullstack projects utilizing React for the frontend and Flask for the backend, demonstrating application of coding principles',
-        link: '#',
+            year: 'FEB 2025 - Present ',
+            company: 'Coding Temple | Remote ',
+            title: 'Full Stack Software Engineer Apprenticeship',
+            description:
+                'Developed fullstack projects utilizing React for the frontend and Flask for the backend, demonstrating application of coding principles',
+            link: '#',
         },
         {
-        year: 'FEB 2020 - 2025',
-        company: 'PeachWiz Inc | Remote',
-        title: 'Software Developer Freelance',
-        description:
-            'Develop and maintain websites using PHP for backend functionality and JQUERY HTML/CSS for frontend design.',
-        link: '#',
+            year: 'FEB 2020 - 2025',
+            company: 'PeachWiz Inc | Remote',
+            title: 'Software Developer Freelance',
+            description:
+                'Develop and maintain websites using PHP for backend functionality and JQUERY HTML/CSS for frontend design.',
+            link: '#',
         },
         {
-        year: 'May 2023 - 2024',
-        company: 'The Premed Consultants Inc | Remote',
-        title: 'Software Developer Freelance',
-        description:
-            'Developed and maintained full-stack web applications to streamline student onboarding, scheduling, and course access.',
-        link: '#',
+            year: 'May 2023 - 2024',
+            company: 'The Premed Consultants Inc | Remote',
+            title: 'Software Developer Freelance',
+            description:
+                'Developed and maintained full-stack web applications to streamline student onboarding, scheduling, and course access.',
+            link: '#',
         },
         {
-        year: 'July 2017 - 2020',
-        company: 'AcaciaSoft Corporation | On-Site Philippines',
-        title: 'Software Developer Full-time',
-        description:
-            'Responsible for automating and streamlining the processes of software delivery, ensuring that development, testing, and deployment processes are efficient and reliable.',
-        link: '#',
+            year: 'July 2017 - 2020',
+            company: 'AcaciaSoft Corporation | On-Site Philippines',
+            title: 'Software Developer Full-time',
+            description:
+                'Responsible for automating and streamlining the processes of software delivery, ensuring that development, testing, and deployment processes are efficient and reliable.',
+            link: '#',
         },
         {
-        year: 'Aug 2015 - 2017',
-        company: 'Zion Praise and Music Inc | On-Site Philippines',
-        title: 'Guitar Teacher Full-time',
-        description:
-            'Teach fundamentals from scales and chords to more advanced music theory.',
-        link: '#',
+            year: 'Aug 2015 - 2017',
+            company: 'Zion Praise and Music Inc | On-Site Philippines',
+            title: 'Guitar Teacher Full-time',
+            description:
+                'Teach fundamentals from scales and chords to more advanced music theory.',
+            link: '#',
         },
     ];
 

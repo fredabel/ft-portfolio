@@ -1,7 +1,4 @@
-import { a, div } from 'framer-motion/client';
-import { DiFirebase } from 'react-icons/di';
 import { 
-    FaDatabase, 
     FaLaravel, 
     FaUbuntu, 
     FaGithub, 
@@ -14,10 +11,8 @@ import {
      FaCcStripe, 
      FaBootstrap, 
      FaPhp, 
-     FaNodeJs,
-     FaFigma        
+     FaNodeJs,       
     } from 'react-icons/fa';
-import { LiaLinux } from 'react-icons/lia';
 import { 
     SiTailwindcss, 
     SiAuth0, 
@@ -41,7 +36,7 @@ import {
 const Technologies: React.FC = () => {
     type TechItem = {
         name: string;
-        icon: JSX.Element;
+        icon: React.ReactNode;
     };
 
     type TechCategory = {
@@ -201,8 +196,8 @@ const Technologies: React.FC = () => {
     
     return (
         <div className="border-t border-gray-200 sm:py-20 py-10" >
-            <div className="mx-auto max-w-7xl px-6 lg:px-8" id="skills">
-                <div className="mx-auto max-w-5xl">
+            <div className="mx-auto max-w-7xl px-6 lg:px-8" >
+                <div className="mx-auto max-w-5xl " >
                     <p className="mt-2 text-2xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-3xl lg:text-balance pl-3 border-l-5 border-gray-200">
                        Skills
                     </p>

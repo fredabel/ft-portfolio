@@ -1,9 +1,6 @@
-import { ChevronDownIcon } from '@heroicons/react/16/solid'
 
 const Contact: React.FC = () => {
-  return (
-    
-           
+  return (     
     <div className="relative isolate border-t border-gray-200 sm:py-20 py-10" >
         <div className="mx-auto max-w-7xl px-6 lg:px-8" id="contact">
             <div

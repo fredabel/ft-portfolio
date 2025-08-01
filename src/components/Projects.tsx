@@ -1,11 +1,10 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
 
 const Projects : React.FC = () =>{
 	type Features = {
 		name: string;
 		date: string;
 		description: string;
-		icon: JSX.Element;
+		
 		link: string;
 	};
   	const features: Features []= [
@@ -13,21 +12,18 @@ const Projects : React.FC = () =>{
 			name: 'FT Store Ecommerce',
 			date: 'June 2025',
 			description: 'A responsive UI using React.js, Bootstrap, and Axios for API integration, ensuring a seamless user experience across devices.',
-			icon: CloudArrowUpIcon,
 			link : 'https://ft-store.up.railway.app/products',
 		},
 		{
 			name: 'Ticket Management API',
 			date: 'May 2025',
 			description: 'A RESTful API using Flask, SQLAlchemy, and Marshmallow to streamline service ticket tracking, status updates, and role-based access for mechanics and customers.',
-			icon: LockClosedIcon,
 			link: 'https://ct-service-ticket-production.up.railway.app/api/docs/'
 		},
 		{
 			name: 'FakeStore E-Commerce App',
 			date: 'April 2025',
 			description: 'A responsive e-commerce frontend using React.js to display products, categories, and details fetched from the FakeStore API.',
-			icon: ArrowPathIcon,
 			link: 'https://magical-squirrel-726913.netlify.app/products'
 		},
 		{
@@ -35,14 +31,12 @@ const Projects : React.FC = () =>{
 			date: 'April 2025',
 			description:
 			'A Python-based game where players can choose from various character classes, each with unique abilities, to engage in battles against opponents.',
-			icon: ArrowPathIcon,
 			link: 'https://github.com/fredabel/the-evil-wizard'
 		},
 		{
 			name: 'Open Trivia Database Quiz App',
 			date: 'March 2025',
 			description: 'A React-based application that allows users to test their knowledge by answering quiz questions fetched from the Open Trivia Database API.',
-			icon: ArrowPathIcon,
 			link: 'https://github.com/fredabel/ct-react-trivia-app'
 		}
 	]

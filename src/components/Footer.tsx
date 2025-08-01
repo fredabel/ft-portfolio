@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
         <div className="flex justify-center gap-x-5 sm:gap-x-5 lg:gap-x-10 mb-10">
             {   
                 navigation.map((item) => (
-                    <Link key={item.name} to={item.href} smooth={true} duration={500}  className="line-clamp-3 text-sm/6 text-gray-600 transition transform hover:scale-110 ">
+                    <Link key={item.name} to={item.href} smooth={true} duration={500}  className="cursor-pointer line-clamp-3 text-sm/6 text-gray-600 transition transform hover:scale-110 ">
                         {item.name}
                     </Link>
                 ))
